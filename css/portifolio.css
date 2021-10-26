@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
+body,
+h2 {
+    font-family: "Poppins", sans-serif;
+}
+
+.img {
+    height: 100vh;
+    width: auto !important;
+    min-width: 100%;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-x {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-indicators {
+    margin-top: -190px;
+    min-height: 87px;
+    min-width: 600px;
+    max-height: 87px;
+    max-width: 760px;
+    position: absolute;
+    left: auto;
+    background-color: rgba(0, 0, 0, 0.65);
+    /* overflow: hidden; */
+}
+
+.carousel-indicators li {
+    padding: 0;
+    margin: 0;
+    margin-top: 7px;
+    width: 70px;
+    height: 47px;
+    transition: ease-in-out 0.3s;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.65);
+}
+
+.carousel-indicators li:hover {
+    opacity: 1;
+    margin-top: -20px;
+    width: 100px;
+    height: 77px;
+}
+
+.carousel-indicators li::after {
+    position: absolute;
+    font-size: 0;
+    top: -20px;
+    bottom: 0;
+    left: auto;
+    right: 20px;
+    text-align: right;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    content: attr(valor);
+    background-color: rgba(0, 0, 0, 0.65);
+    transition: ease-in-out 0.3s;
+}
+
+.carousel-indicators li:hover::after {
+    font-size: 15px;
+}
+
+.carousel-indicators {
+    margin-right: 5%;
+}
+
+@keyframes deslizeTop {
+    0% {
+        margin-top: -155px;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+
+@keyframes deslizeBottom {
+    0% {
+        margin-top: 155px;
+    }
+    100% {
+        margin-top: 0px;
+    }
+}
+
+@keyframes deslizeEsquerda {
+    0% {
+        left: -400px;
+    }
+    100% {
+        left: 0;
+    }
+}
+
+.legends {
+    padding: 30px;
+    right: 0;
+    position: absolute;
+    color: #fff;
+    left: 0px;
+    top: 6%;
+    min-width: 490px;
+    max-width: 490px;
+}
+
+.legends-right {
+    right: 80px;
+    position: absolute;
+    color: #fff;
+    left: auto;
+    top: 2%;
+    min-width: 490px;
+    max-width: 490px;
+}
+
+.legends h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    line-height: 52px;
+    font-weight: 100;
+    letter-spacing: 5px;
+    animation-name: deslizeTop;
+    animation-duration: 2s;
+}
+
+.legends .bottom p {
+    position: absolute;
+    display: inline;
+    clear: both;
+    letter-spacing: 3px;
+    font-size: 20px;
+    color: rgb(220, 215, 215);
+    font-weight: 300;
+    animation-name: deslizeBottom;
+    animation-duration: 2.2s;
+    width: 100%;
+    height: 100%;
+}
+
+.legends .bottom {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 43px;
+}
+
+.legends .msg {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.legends .span {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+}
+
+.legends .msg span {
+    position: absolute;
+    display: inline;
+    text-align: justify;
+    clear: both;
+    width: 100%;
+    min-height: 100%;
+    display: block;
+    word-wrap: break-word;
+    text-shadow: 1px 1px 1px #000;
+    font-size: calc(3px + (8 / 1200) * 100 * 1vw);
+    letter-spacing: 2px;
+    line-height: 25px;
+    white-space: normal;
+    font-weight: 300;
+    animation-name: deslizeEsquerda;
+    animation-duration: 2s;
+}
+
+.imgVoltar {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin: 10px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.imgVoltar::after {
+    cursor: pointer;
+    position: absolute;
+    top: 14px;
+    left: 40px;
+    content: "Voltar";
+}
+
+.order1 {
+    order: 1;
+}
+
+.order2 {
+    order: 2;
+}
+
+.order3 {
+    order: 3;
+}
+
+.order4 {
+    order: 4;
+}
+
+.order5 {
+    order: 5;
+}
+
+.order6 {
+    order: 6;
+}
+
+.order7 {
+    order: 7;
+}
+
+.order8 {
+    order: 8;
+}
+
+.order9 {
+    order: 9;
+}
+
+@media only screen and (max-width: 480px) {
+    .legends h2 {
+        font-size: 25px;
+    }
+    .legends .span {
+        width: 80%;
+    }
+    .legends .msg span {
+        font-size: 10px;
+    }
+    .legends-right {
+        right: inherit;
+    }
+    .legends-right .imgVoltar {
+        margin-left: 0;
+    }
+    .carousel-indicators {
+        margin: 10px;
+        overflow: scroll;
+        min-width: 200px;
+        max-width: 100%;
+        height: 160px;
+        margin: 0;
+        padding: 0;
+        left: 0;
+    }
+    .carousel-indicators li {
+        padding: 5px;
+        float: left;
+        min-width: 100px;
+    }
+    .carousel-indicators li::after {
+        top: auto;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 900px) {
+    .legends {
+        max-width: 97%
+    }
+}

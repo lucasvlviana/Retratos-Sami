@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500&display=swap");
+body {
+    opacity: 0;
+}
+
+.pagina-galeria-container {
+    height: 100vh;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina-galeria-container::before {
+    content: "";
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../img/fundo.jpg");
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+
+/* inicio botão voltar */
+
+.imgVoltar {
+    position: absolute;
+    z-index: 3;
+    left: 1%;
+    top: 2%;
+    cursor: pointer;
+}
+
+.imgVoltar::after {
+    color: #fff;
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    left: 45px;
+    content: "Voltar";
+}
+
+
+/* Fim botão voltar */
+
+
+/* Inicio modal galeria */
+
+.pagina-galeria-Body {
+    width: 100%;
+    /* background-color: #000; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.pagina-galeria-Body .modal {
+    padding: 0 !important;
+    z-index: 4;
+}
+
+.pagina-galeria-Body .modal-dialog {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+    height: 100vh;
+}
+
+.pagina-galeria-Body .modal,
+.pagina-galeria-Body .modal-dialog,
+.pagina-galeria-Body .modal-content {
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .3), rgba(0, 0, 0, .8), rgba(0, 0, 0, .5));
+    ;
+    color: #fff;
+}
+
+.pagina-galeria-Body .modal-title {
+    text-align: center;
+}
+
+.pagina-galeria-Body .modal-header span {
+    color: #fff;
+}
+
+.pagina-galeria-Body .galeria-item {
+    position: relative;
+    max-width: 45vh;
+    height: 25vh;
+    width: 40%;
+    max-height: 30vh;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.pagina-galeria-Body .galeria-item img {
+    width: 100%;
+    height: 100%;
+}
+
+.pagina-galeria-Body .galeria-item .title {
+    display: flex;
+    width: 90%;
+    bottom: 20px;
+    position: absolute;
+    align-content: center;
+    justify-content: center;
+}
+
+.pagina-galeria-Body .galeria-item .title span {
+    width: max-content;
+    color: #fff;
+    font-size: 2vw;
+    text-shadow: 2px 2px 2px #000;
+    font-family: 'Poppins';
+}
+
+
+/* Fim  modal galeria */
+
+
+/* inicio conteudo galeria moda */
+
+.pagina-galeriaFull {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: top;
+    float: left;
+    /* background-color: #000; */
+}
+
+.pagina-galeriaFull .carousel {
+    width: 100%;
+    max-width: 100%;
+    height: 80vh;
+}
+
+.pagina-galeriaFull .carousel-item,
+.pagina-galeriaFull ol li,
+.pagina-galeria-Body .galeria-item {
+    filter: grayscale(80%);
+    transition: all 0.3s;
+}
+
+.pagina-galeriaFull .carousel-item:hover,
+.pagina-galeriaFull ol li:hover,
+.pagina-galeria-Body .galeria-item:hover {
+    filter: none;
+}
+
+.pagina-galeriaFull .carousel-inner {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    padding-top: 2%;
+}
+
+.pagina-galeriaFull .carousel-item {
+    width: 70%;
+    left: 5%;
+    height: 100%;
+    margin: 0;
+}
+
+.pagina-galeriaFull .carousel-item img {
+    text-align: center;
+    max-height: 85vh;
+}
+
+.pagina-galeriaFull ol {
+    position: relative;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 85vh;
+    max-height: 85vh;
+    width: 14%;
+    min-height: 200px;
+    overflow-y: scroll;
+    margin: 0;
+}
+
+.pagina-galeriaFull ol li {
+    float: left;
+    min-width: 80%;
+    border: solid 3px #fff;
+    height: 15%;
+    opacity: 1;
+    transition: all 0.3s;
+}
+
+.pagina-galeriaFull ol li:hover {
+    border: solid 3px #daa520;
+}
+
+.pagina-galeriaFull ol li img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* inicio conteudo galeria moda */
+
+
+/* retirando opacidade ao fundo */
+
+.modal-backdrop {
+    position: relative;
+}
