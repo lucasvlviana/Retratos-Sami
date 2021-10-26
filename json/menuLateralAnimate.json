@@ -1,0 +1,51 @@
+{
+    "links": [{
+            "id": "",
+            "nome": "ANIMAL",
+            "link": "./galeria.html?tipo=ANIMAL",
+            "capa": "img/ANIMAL/CAPA(2).jpg"
+        },
+        {
+            "id": "",
+            "nome": "FEMININO",
+            "link": "./galeria.html?tipo=FEMININO",
+            "capa": "img/FEMININO/CAPA.jpg"
+        },
+        {
+            "id": "",
+            "nome": "CRIANÇA",
+            "link": "./galeria.html?tipo=CRIANCA",
+            "capa": "img/CRIANCA/CAPA.jpg"
+        },
+        {
+            "id": "",
+            "nome": "FAMÍLIA",
+            "link": "./galeria.html?tipo=FAMILIA",
+            "capa": "img/FAMILIA/CAPA.JPG"
+        },
+        {
+            "id": "",
+            "nome": "CASAL",
+            "link": "./galeria.html?tipo=CASAL",
+            "capa": "img/CASAL/CAPA.jpg"
+        },
+        {
+            "id": "",
+            "nome": "GESTANTE",
+            "link": "./galeria.html?tipo=GESTANTE",
+            "capa": "img/GESTANTE/CAPAOPCAO(2).jpg"
+        },
+        {
+            "id": "",
+            "nome": "MASCULINO",
+            "link": "./galeria.html?tipo=MASCULINO",
+            "capa": "img/MASCULINO/Capa.jpeg"
+        },
+        {
+            "id": "",
+            "nome": "PAISAGEM",
+            "link": "./galeria.html?tipo=PAISAGEM",
+            "capa": "img/PAISAGEM/CAPA.jpg"
+        }
+    ]
+}

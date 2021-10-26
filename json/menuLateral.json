@@ -1,0 +1,44 @@
+{
+    "links": [{
+            "id": "",
+            "nome": "INICIO",
+            "link": "#inicio",
+            "target": ""
+        },
+        {
+            "id": "",
+            "nome": "PORTIFOLIO",
+            "link": "./portifolio.html",
+            "target": "portifolio"
+        },
+        {
+            "id": "",
+            "nome": "GALERIA",
+            "link": "#galeria",
+            "target": ""
+        },
+        {
+            "id": "",
+            "nome": "COMENTARIOS",
+            "link": "#comentario",
+            "target": ""
+        },
+        {
+            "id": "",
+            "nome": "REDES SOCIAIS",
+            "link": "./links.html",
+            "target": "_blanck"
+        },
+        {
+            "id": "",
+            "nome": "QUEM SOU",
+            "link": "#quemSou",
+            "target": ""
+        }, {
+            "id": "",
+            "nome": "CONTATO",
+            "link": "#contato",
+            "target": ""
+        }
+    ]
+}

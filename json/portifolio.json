@@ -1,0 +1,43 @@
+{
+    "portifolio": [{
+        "titulo": "ANIMAL",
+        "conteudo": "Retratos daqueles que já nascem sabendo amar, confiam incondicionalmente, gostam de ti pelo que tu és e não pela tua aparência, estão sempre disponíveis para te escutar e através dos seus olhos são capazes de nos dizer coisas que muitas das vezes gostaríamos de ouvir de alguém. E o mais valioso nos ensinam sobre a humanidade, confiança, apoio, proteção, cordialidade, lealdade, companheirismo, amizade e o mais lindo de todos o amor de Deus.",
+        "img": "img/ANIMAL/CAPA(2).jpg",
+        "order": "1"
+    }, {
+        "titulo": "FEMININO",
+        "conteudo": "Retratos capazes de captar olhares sobre a mulher de uma forma diferente do que ela está acostumada a se ver, elevando sua autoestima, fazendo ela se enxergar de outra maneira, transformando o momento em uma experiência única, indescritível, cheia de autoconfiança, amor-próprio, capaz de fazer até você sorrir e sentir algo bom sempre que olhar para as fotos. E o que irá predominar é que não há como medir o valor da mulher perante Deus, ela é muito mais que uma joia rara e nem os melhores diamantes são mais preciosos do que as qualidades e características de cada uma.",
+        "img": "img/FEMININO/CAPA.jpg",
+        "order": "2"
+    }, {
+        "titulo": "CRIANÇA",
+        "conteudo": "Retratos do mais singelo e significativo companheirismo, cumplicidade, amor, união, alegria, sonhos, projetos, fraquezas, conquistas, histórias. Cada casal é capaz de nos levar ao deslumbre do quanto o amor é paciente e benigno, não arde em ciúmes, não se ufana, não se ensoberbece, é o reflexo do amor puro e grandioso de Deus por nós. Por certo, viver um amor é simples, mas contar essa história é fundamental!",
+        "img": "img/CRIANCA/CAPA.jpg",
+        "order": "3"
+    }, {
+        "titulo": "FAMÍLIA",
+        "conteudo": "Retratos das mais sensíveis e visíveis diferenças, semelhanças, carinhos, olhares, amor, afetos entre pais e filhos, filhos e pais, mãe e filhos, pai e filhos, família inteira, gestante, avós, pets. Uma família é capaz de te surpreender com os mais autênticos registros do amor de Deus, te faz sentir verdadeiramente em casa, faz você acreditar nos valores e na força que ela pode te transmitir e verás que podemos ficar à vontade para sermos nós mesmos. O mais extraordinário é que as lembranças fotográficas são a mais lindas heranças que podemos deixar para a família, para a nossa história!",
+        "img": "img/FAMILIA/CAPA.JPG",
+        "order": "4"
+    }, {
+        "titulo": "CASAL",
+        "conteudo": "Retratos do mais singelo e significativo companheirismo, cumplicidade, amor, união, alegria, sonhos, projetos, fraquezas, conquistas, histórias. Cada casal é capaz de nos levar ao deslumbre do quanto o amor é paciente e benigno, não arde em ciúmes, não se ufana, não se ensoberbece, é o reflexo do amor puro e grandioso de Deus por nós. Por certo, viver um amor é simples, mas contar essa história é fundamental!",
+        "img": "img/CASAL/CAPA.jpg",
+        "order": "5"
+    }, {
+        "titulo": "GESTANTE",
+        "conteudo": "Retratos de um dos momentos mais especiais, o mais sublime na vida de uma mulher, a gestação. Cada momento da espera, mudanças constantes no corpo e na vida, barriga crescendo, muitas certezas e incertezas, poder ter a sensação do amor que exacerba de uma forma indescritível para a mulher e para todos que estão ao seu redor. O primordial é que o momento em que o mais singelo sentimento surge, as palavras não conseguem expressar porque se torna o mais puro amor infinito de Deus gerado na vida de cada um de uma forma mágica e inigualável.",
+        "img": "img/GESTANTE/CAPAOPCAO(2).jpg",
+        "order": "6"
+    }, {
+        "titulo": "MASCULINO",
+        "conteudo": "Retratos do deleite de um olhar capaz de retratar as mais expressas sensações que vão além da imagem, aquele momento que o registro pode falar mais que qualquer coisa. Cada homem tem diferenciações em seu jeito, corpo, cabelos, olhares, sorrisos, atitudes, caráter, formas de ver o mundo e comportamento. Cada momento que é clicado é especial na vida dele. Pode trazer consigo uma lembrança pessoal, um registro de um novo emprego, uma conquista, um momento de felicidade, uma mudança significativa ou simples em sua vida, simplesmente, o desejo de registrar um momento especial que não pode ser esquecido. Quando se vê aquela foto temos a convicção que junto com ela, vem toda uma memória junto. Os grandes homens têm os seus valores, integridade, caráter; busca ser segundo o coração de Deus .",
+        "img": "img/MASCULINO/Capa.jpeg",
+        "order": "7"
+    }, {
+        "titulo": "PAISAGEM",
+        "conteudo": "Retratos capazes de descrever e contar minuciosamente cada cantinho do mundo. No qual, nos tornamos capazes de absorver a essência de cada lugar, experimentando a mais estimulante, indescritível e inesquecível experiência. Porque em cada clique descobrimos os mais puros cenários naturais, a mais perfeita criação de Deus, o momento que nos leva a querer estar ali e poder fazer parte de algo maior. Uma paisagem merece ser emoldurada como a mais valiosa obra de arte, ser vista na sua mais pura formosura, ser reconhecida e sentida em cada detalhe.",
+        "img": "img/PAISAGEM/CAPA.jpg",
+        "order": "8"
+    }]
+}
